@@ -8,8 +8,8 @@ An end-to-end data science pipeline evaluating the relationship between adolesce
 
 This research project evaluates how specific social media usage metrics impact teenage mental health outcomes. The primary focus of this workspace is maintaining strict separation between **exploratory statistical inference** and **predictive machine learning workflows**.
 
-> * **The Problem:** Clinical datasets regarding mental health frequently exhibit extreme class imbalances (e.g., small percentages of severe outcomes) alongside non-linear demographic confounders.
-> * **The Solution:** This workspace enforces a strict pipeline architecture, performing hypothesis testing strictly on true observational data while reserving synthetic class balancing (SMOTE) strictly for machine learning training splits to prevent data leakage and $p$-value distortion.
+>  **The Problem:** Clinical datasets regarding mental health frequently exhibit extreme class imbalances (e.g., small percentages of severe outcomes) alongside non-linear demographic confounders.
+>  **The Solution:** This workspace enforces a strict pipeline architecture, performing hypothesis testing strictly on true observational data while reserving synthetic class balancing (SMOTE) strictly for machine learning training splits to prevent data leakage and $p$-value distortion.
 
 ---
 
